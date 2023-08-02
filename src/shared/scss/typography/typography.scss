@@ -1,0 +1,31 @@
+@import "../utils/utils";
+
+@mixin heading-l {
+  font-size: calcRem(64);
+  line-height: calcRem(77);
+  font-weight: 700;
+}
+
+@mixin heading-m {
+  font-size: calcRem(24);
+  line-height: calcRem(29);
+  font-weight: 400;
+}
+
+@mixin heading-s {
+  font-size: calcRem(20);
+  line-height: calcRem(24);
+  font-weight: 400;
+}
+
+@mixin body-m {
+  font-size: calcRem(18);
+  line-height: calcRem(24);
+  font-weight: 400;
+}
+
+@mixin body-s {
+  font-size: calcRem(18);
+  line-height: calcRem(24);
+  font-weight: 400;
+}
