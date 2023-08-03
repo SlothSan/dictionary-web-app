@@ -1,4 +1,4 @@
-@import "utils";
+@import "../utils/utils";
 
 @mixin heading-l {
   font-size: calcRem(64);
