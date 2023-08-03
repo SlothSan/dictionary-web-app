@@ -1,0 +1,19 @@
+
+@import "src/app/shared/scss/common";
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .logo-container {
+    width: calcRem(28);
+    height: calcRem(32);
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .options-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
