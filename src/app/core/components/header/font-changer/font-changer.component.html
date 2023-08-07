@@ -1,0 +1,6 @@
+<form class="font-select" [formGroup]="fontOptionsForm">
+  <select formControlName="font">
+      <option *ngFor="let font of fontOptions" ngValue="{{font.name}}">{{font.name}}</option>
+  </select>
+</form>
+
